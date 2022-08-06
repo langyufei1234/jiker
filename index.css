@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+}
+.jk-header{
+    position: relative;
+    height: 60px;
+    padding: 10px ; 
+    border-bottom: 2px solid #e9e9e9;
+}
+.header{
+    position: relative;
+    margin-left: 300px;
+    display: inline-block;
+}
+.jk-header .logo {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 105px;
+} 
+.jk-header nav {
+    position: relative;
+    margin-left: 250px;
+    float: left;
+}
+.jk-header nav a {
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 69px;
+    padding-right: 32px;
+    color: #0b0b0b;
+    float: left;
+}
+.jk-header nav a:hover{ 
+    color: #43a447;
+}
+.jk-header .enter{
+    position: relative;
+    float: left;
+}
+.jk-header .enter img{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.pager{
+    background-color: #f8fafc;
+}
+.pager h2{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    line-height: 20px;
+    margin-top: 30px; 
+}
+.pager h3{
+    position: relative;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #666666;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.jk-banner{
+    width: 1200px;
+    height: 380px;
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+}
+.jk-banner img{
+    position: absolute;
+    margin-left: 60px;
+}
+ .min-banner ul{
+    position: relative;
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.min-banner ul li{
+    position: relative;
+    width: 510px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.min-banner ul li img{
+    position: absolute;
+    margin-left: 370px;
+    bottom: 0;
+}
+.min-banner ul li p{
+    margin-left: 25px;
+}
+.min-banner ul li .re-title{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    line-height: 20px;
+}
+.min-banner ul li .re-info{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #666666;
+    line-height: 20px;
+}
+.min-banner ul li .re-leader{
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #666666;
+    line-height: 12px;
+}
+.jk-uptodate ul{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.course{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 63px;
+}
+.jk-uptodate ul li{
+    width: 258px;
+    height: 230px;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.jk-uptodate ul li .uptodate-img{
+    position: relative;
+    width: 258px;
+    height: 139px;
+   }
+.jk-uptodate ul .uptodate-title{
+    width: 226px;
+    height: 40px;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22px;
+    margin-left: 20px;
+}
+.jk-uptodate ul .uptodate-info{
+    width: 211px;
+    height: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #666666;
+    line-height: 12px;
+}
+.jk-uptodate ul li a img{
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.jk-item ul{
+    position: relative;
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap:wrap;
+}
+.item{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap:wrap;
+    margin-left:50px;
+}
+.jk-item ul li{
+    position: relative;
+    width: 203px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.item-banner p{
+    margin-top: 5px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.item-banner .show{
+    width: 203px;
+    height: 36px;
+    background-color: #838ca1;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+    border: 1px solid #e9e9e9;
+    border-radius: 0px 0px 5px 5px;
+}
+.item-banner .hide{
+    position: relative;
+    width: 203px;
+    height: 36px;
+    background-color: #2e58b9;
+    margin-top: 20px;
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    
+    border: 1px solid #e9e9e9;
+    border-radius: 0px 0px 5px 5px;
+}
+.item-banner .hide:hover{
+    display: none;
+}
+
+.jk-test ul{
+    width: 1200px;
+    height: 430px;
+    position: relative;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.experiment{
+    position: relative;
+    width: 1200px;
+    height: 430px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65px;
+}
+.jk-test ul li{
+    position: relative;
+    width: 203px;
+    height: 200px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.jk-test ul li .test-img{
+    position: relative;
+    width: 203px;
+    height: 110px;
+   }
+.jk-test ul .test-title{
+    width: 226px;
+    height: 40px;
+    font-size: 15px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22px;
+    margin-left: 20px;
+}
+.jk-test ul .test-info{
+    width: 211px;
+    height: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #666666;
+    line-height: 12px;
+}
+.jk-test ul li a img{
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer {
+    top: 30px;
+    bottom: 0;
+    background-color: #333744;
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+.footer a{
+    position: relative;
+    line-height: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
